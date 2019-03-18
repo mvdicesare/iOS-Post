@@ -31,7 +31,7 @@ In this step, you will create your `Post` model object, give it stored propertie
 Create a model object that will represent the `Post` objects that are listed in the feed. This model object will be generated locally, but must also be able to be initialized by decoding JSON data after "GETting" from the backend database.
 
 * Create a `Post.swift` file and define a new `Post` struct.
-* Go to a sample endpoint of the [Post API](http://devmtn-posts.firebaseio.com/posts.json) and see what JSON (information) you will get back for each post.
+* Go to a sample endpoint of the [Post API](https://devmtn-posts.firebaseio.com/posts.json) and see what JSON (information) you will get back for each post.
 * Using this information, add the properties on `Post`.
     * <details>
 
